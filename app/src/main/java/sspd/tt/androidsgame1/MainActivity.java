@@ -42,9 +42,13 @@ public class MainActivity extends AppCompatActivity {
 
         counter.setTranslationY(-1500);
 
-        Log.i("Tag",counter.getTag().toString()   );
+
 
         int tappedCounter = Integer.parseInt(counter.getTag().toString());
+
+        if(gameState[tappedCounter]== 2){
+
+
 
         gameState[tappedCounter] =activePlayer;
 
@@ -76,12 +80,12 @@ public class MainActivity extends AppCompatActivity {
                     winner = "red";
                 }
 
-                Toast.makeText(this,"Someone is Won!!",Toast.LENGTH_LONG).show();
+                Toast.makeText(this,winner+" is Won!!",Toast.LENGTH_LONG).show();
             }
         }
 
 
-
+        }
 
     }
 }
