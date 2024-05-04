@@ -31,9 +31,10 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="10dp"
+            android:onClick="dropIn"
+            android:tag="0"
             app:layout_column="0"
-            app:layout_row="0"
-            app:srcCompat="@drawable/red" />
+            app:layout_row="0" />
 
 
         <ImageView
@@ -42,9 +43,10 @@
             android:layout_height="100dp"
             android:layout_margin="10dp"
             android:layout_marginLeft="17dp"
+            android:onClick="dropIn"
+            android:tag="1"
             app:layout_column="1"
-            app:layout_row="0"
-            app:srcCompat="@drawable/red" />
+            app:layout_row="0" />
 
         <ImageView
             android:id="@+id/imageView3"
@@ -52,9 +54,10 @@
             android:layout_height="100dp"
             android:layout_margin="10dp"
             android:layout_marginLeft="12dp"
+            android:onClick="dropIn"
+            android:tag="2"
             app:layout_column="2"
-            app:layout_row="0"
-            app:srcCompat="@drawable/red" />
+            app:layout_row="0" />
 
         <ImageView
             android:id="@+id/imageView4"
@@ -63,9 +66,10 @@
             android:layout_margin="10dp"
             android:layout_marginTop="130dp"
 
+            android:onClick="dropIn"
+            android:tag="3"
             app:layout_column="0"
-            app:layout_row="0"
-            app:srcCompat="@drawable/red" />
+            app:layout_row="0" />
 
 
         <ImageView
@@ -73,22 +77,24 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="10dp"
-            android:layout_marginTop="130dp"
             android:layout_marginLeft="17dp"
+            android:layout_marginTop="130dp"
+            android:onClick="dropIn"
+            android:tag="4"
             app:layout_column="1"
-            app:layout_row="0"
-            app:srcCompat="@drawable/red" />
+            app:layout_row="0" />
 
         <ImageView
             android:id="@+id/imageView6"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="10dp"
-            android:layout_marginTop="130dp"
             android:layout_marginLeft="12dp"
+            android:layout_marginTop="130dp"
+            android:onClick="dropIn"
+            android:tag="5"
             app:layout_column="2"
-            app:layout_row="0"
-            app:srcCompat="@drawable/red" />
+            app:layout_row="0" />
 
         <ImageView
             android:id="@+id/imageView7"
@@ -97,9 +103,10 @@
             android:layout_margin="10dp"
             android:layout_marginTop="260dp"
 
+            android:onClick="dropIn"
+            android:tag="6"
             app:layout_column="0"
-            app:layout_row="0"
-            app:srcCompat="@drawable/red" />
+            app:layout_row="0" />
 
 
         <ImageView
@@ -107,22 +114,24 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="10dp"
-            android:layout_marginTop="260dp"
             android:layout_marginLeft="17dp"
+            android:layout_marginTop="260dp"
+            android:onClick="dropIn"
+            android:tag="7"
             app:layout_column="1"
-            app:layout_row="0"
-            app:srcCompat="@drawable/red" />
+            app:layout_row="0" />
 
         <ImageView
             android:id="@+id/imageView9"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="10dp"
-            android:layout_marginTop="260dp"
             android:layout_marginLeft="12dp"
+            android:layout_marginTop="260dp"
+            android:onClick="dropIn"
+            android:tag="8"
             app:layout_column="2"
-            app:layout_row="0"
-            app:srcCompat="@drawable/red" />
+            app:layout_row="0" />
 
 
 
